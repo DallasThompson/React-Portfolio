@@ -11,6 +11,91 @@
   padding: 0; 
   overflow: hidden; 
 }
+.body {
+  margin: 0;
+  padding: 0;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0077b6;
+  font-size: 100px;
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-tabs .nav-item .nav-link {
+  background-color: #0077b6;
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  color: #000000;
+}
+
+/* .footerstyle {
+  color: 'white',
+  padding: '10px',
+  textAlign: 'center',
+  position: 'absolute',
+  bottom: '0',
+  width: '60%',
+}; */
+
+.navPillsStyles {
+  font-size: '40px';
+  padding: '10px 20px';
+};
+
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #f9f9f9;
+}
+
+/* Style form labels */
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Style form input fields and textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 75%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the Submit button */
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Style the Submit button on hover */
+button :hover {
+  background-color: #0056b3;
+}
+
+
 
 
 

@@ -1,8 +1,10 @@
-export default function Portfolio() {
+export default function Resume() {
     return (
-      <div class="jumpotron">
-        <h1 class="display-2, body">Portfolio</h1>
-        <p class="lead">
+      <div>
+        <a href="myPic.JPG" download>
+  download</a>
+        <h1>Resume</h1>
+        <p>
           Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
           Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
           dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
@@ -17,7 +19,7 @@ export default function Portfolio() {
           bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
           est ligula suscipit velit, sed bibendum turpis dui in sapien.
         </p>
-        <p class="my-4">I want to own about 20,000 dogs but I cant</p>
+        <p>I want to own about 20,000 dogs but I cant</p>
       </div>
     );
   }

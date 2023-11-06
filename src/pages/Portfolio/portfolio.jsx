@@ -1,7 +1,10 @@
-export default function Contact() {
+
+
+
+export default function Portfolio() {
     return (
-      <div class="jumpotron">
-        <h1 class="display-2, body">Contact me</h1>
+      <div class="jumbotron">
+        <h1 class="display-2, body">Portfolio</h1>
         <p class="lead">
           Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
           Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
