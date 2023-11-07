@@ -1,9 +1,15 @@
 import React from 'react';
 import { Card, Container } from 'react-bootstrap';
+import myPic from './myPic.jpg'
 
 const About = () => {
   return (
     <Container className="d-flex justify-content-center align-items-center vh-100">
+          <img
+        src={myPic} // Use the imported myPic variable as the source
+        alt="Your Alt Text"
+        style={{ maxWidth: '20%', height: 'auto' }}
+      />
     <Card style={{ width: '80rem' }}>
       <Card.Body>
         <h1 className="body">About Me</h1>
