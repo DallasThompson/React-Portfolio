@@ -35,14 +35,7 @@
   color: #000000;
 }
 
-/* .footerstyle {
-  color: 'white',
-  padding: '10px',
-  textAlign: 'center',
-  position: 'absolute',
-  bottom: '0',
-  width: '60%',
-}; */
+
 
 .navPillsStyles {
   font-size: '40px';
@@ -60,14 +53,14 @@ form {
   background-color: #f9f9f9;
 }
 
-/* Style form labels */
+
 label {
   display: block;
   font-weight: bold;
   margin-top: 10px;
 }
 
-/* Style form input fields and textarea */
+
 input[type="text"],
 input[type="email"],
 textarea {
@@ -78,10 +71,10 @@ textarea {
   border-radius: 5px;
 }
 
-/* Style the Submit button */
+
 button {
   background-color: #007BFF;
-  color: #fff;
+  color: #240909;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -90,11 +83,64 @@ button {
   margin-top: 10px;
 }
 
-/* Style the Submit button on hover */
+
 button :hover {
   background-color: #0056b3;
 }
 
+
+.nav-tabs-lg {
+  font-size: 50px;
+  padding: 10px; 
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa; 
+  padding: 10px; 
+  text-align: center;
+}
+
+.resume-container {
+  width: 100%; 
+  max-width: 100%; 
+  margin: 0 auto; 
+  padding: 20px; 
+  overflow-y: auto; /* Add vertical scrolling when content exceeds the container height */
+  max-height: 80vh; /* Set a maximum height (adjust as needed) */
+}
+
+.resume-content {
+  background-color: #fff; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.button-text-color {
+  color: #000000; 
+}
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.project-links {
+  flex: 1; 
+  overflow-y: scroll; 
+}
+
+
+.footerReach {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
 
 
 

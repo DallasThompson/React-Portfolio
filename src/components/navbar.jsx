@@ -6,7 +6,8 @@ function NavTabs() {
   
 
   return (
-    <ul className="nav nav-tabs justify-content-end ">
+    
+    <ul className="nav nav-tabs justify-content-end nav-tabs-lg">
       <li className="nav-item">
         <Link
           to="/"
