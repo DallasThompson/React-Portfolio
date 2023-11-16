@@ -24,23 +24,37 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
-.nav-tabs .nav-item .nav-link {
-  background-color: #0077b6;
-  color: #ffffff;
+.nav {
+  position: center;
+  background-color: #05324a;
   font-family: 'Courier New', Courier, monospace;
-  
+  justify-content: center;
+  border: 2px solid #000000; 
+  border-radius: 10px; 
+  color: #ffffff;
+
 }
 
-.nav-tabs .nav-item .nav-link.active {
-  color: #000000;
+.nav-container {
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-
-
-.navPillsStyles {
-  font-size: '40px';
-  padding: '10px 20px';
-};
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15%;
+  background-color: #05324a;
+  padding: 10px; 
+  text-align: center;
+  border: 3px solid #000000; 
+  border-radius: 10px;
+  box-sizing: border-box; 
+}
 
 
 form {
@@ -89,28 +103,17 @@ button :hover {
 }
 
 
-.nav-tabs-lg {
-  font-size: 50px;
-  padding: 10px; 
-}
 
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: #f8f9fa; 
-  padding: 10px; 
-  text-align: center;
-}
+
 
 .resume-container {
   width: 100%; 
   max-width: 100%; 
   margin: 0 auto; 
   padding: 20px; 
-  overflow-y: auto; /* Add vertical scrolling when content exceeds the container height */
-  max-height: 80vh; /* Set a maximum height (adjust as needed) */
+  overflow-y: auto;
+  max-height: 80vh; 
 }
 
 .resume-content {
@@ -126,12 +129,12 @@ button :hover {
 .portfolio-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; 
+  min-height: 100vh;
+  margin-top: 10%;
 }
 
 .project-links {
   flex: 1; 
-  overflow-y: scroll; 
 }
 
 
@@ -142,8 +145,37 @@ button :hover {
   padding: 20px;
 }
 
+.project-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
 
+.project-card {
+  width: 20rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.project-card a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
 
 
 

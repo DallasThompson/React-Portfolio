@@ -6,7 +6,7 @@ const About = () => {
   return (
     <Container className="d-flex justify-content-center align-items-center vh-100">
           <img
-        src={myPic} // Use the imported myPic variable as the source
+        src={myPic}
         alt="Your Alt Text"
         style={{ maxWidth: '20%', height: 'auto' }}
       />
