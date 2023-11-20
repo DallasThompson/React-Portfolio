@@ -9,10 +9,12 @@ function App() {
   return (
     <>
     <NavTabs/>
-    <main className="mx-3, backgroundImage">
+    <main className="backgroundImage">
       <Outlet />
     </main>
-    <Footer/>
+      <Footer/>
+
+  
   </>
   )
 }

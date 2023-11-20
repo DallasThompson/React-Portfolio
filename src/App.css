@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: left;
-  background-image: url('https://t3.ftcdn.net/jpg/06/27/99/10/240_F_627991094_HS3Dd2lMQW32KvSQx6JGhbyJpnmrjMrc.jpg');
+  background: linear-gradient(to bottom, #ffffff, #05324a);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
@@ -30,32 +30,21 @@
   font-family: 'Courier New', Courier, monospace;
   justify-content: center;
   border: 2px solid #000000; 
-  border-radius: 10px; 
+
   color: #ffffff;
 
 }
 
-.nav-container {
-  position: fixed;
-  top: 5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 15%;
-  background-color: #05324a;
-  padding: 10px; 
+  width: 14%;
+  padding: 3px; 
   text-align: center;
-  border: 3px solid #000000; 
-  border-radius: 10px;
-  box-sizing: border-box; 
+  margin: 0 0px;
 }
-
 
 form {
   max-width: 400px;
@@ -67,13 +56,11 @@ form {
   background-color: #f9f9f9;
 }
 
-
 label {
   display: block;
   font-weight: bold;
   margin-top: 10px;
 }
-
 
 input[type="text"],
 input[type="email"],
@@ -84,7 +71,6 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-
 
 button {
   background-color: #007BFF;
@@ -97,15 +83,9 @@ button {
   margin-top: 10px;
 }
 
-
 button :hover {
   background-color: #0056b3;
 }
-
-
-
-
-
 
 .resume-container {
   width: 100%; 
@@ -113,7 +93,7 @@ button :hover {
   margin: 0 auto; 
   padding: 20px; 
   overflow-y: auto;
-  max-height: 80vh; 
+  max-height: 100vh; 
 }
 
 .resume-content {
@@ -130,20 +110,14 @@ button :hover {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin-top: 10%;
+  margin-top: 5%;
+  
 }
 
 .project-links {
   flex: 1; 
 }
 
-
-.footerReach {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-}
 
 .project-cards {
   display: flex;
@@ -152,18 +126,32 @@ button :hover {
 }
 
 .project-card {
-  width: 20rem;
-  border: 1px solid #ccc;
+  width: 25rem;
+  border: 10px solid #05324a;
   border-radius: 8px;
   overflow: hidden;
   margin: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #05324a;
+}
+
+.contact-card {
+  width: 25rem;
+  border: 10px solid #05324a;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #05324a;
 }
 
 .project-card img {
   width: 100%;
   height: auto;
-  border-bottom: 1px solid #ccc;
+  border-radius: 5px; 
+  border: 6px solid #0077b6;
+  
+  
 }
 
 .project-card a {
@@ -177,5 +165,16 @@ button :hover {
   transition: transform 0.3s ease-in-out;
 }
 
+.section-heading {
+  text-decoration: underline;
+  font-family: 'Your Desired Font', sans-serif;
+}
+.project-heading {
+  text-decoration: underline;
+  font-family: 'Your Desired Font', sans-serif;
+  color: #ffffff;
+}
 
-
+.project-card-para {
+  color: #ffffff;
+}

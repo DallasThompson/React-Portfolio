@@ -26,23 +26,21 @@ export default function Contact() {
 
     return (
       <div>
-        <h1>Contact Me</h1>
-
-        <form action="/submit-contact" method="post">
+        <form className="contact-card" action="/submit-contact" method="post">
           <div>
-          <label for="name">Name:</label>
+          <label className="project-card-para" for="name">Name:</label>
           
           <input type="text" id="name" name="name" pattern=".+@globex\.com" required onBlur={() => textFieldNull(event)}/>
           </div>
           <div>
-          <label for="email">Email:</label>
+          <label className="project-card-para" for="email">Email:</label>
           <input type="email" id="email" name="email" required onBlur={() => textFieldNull(event)}/>
           </div>
           <div>
-          <label for="message">Message:</label>
+          <label className="project-card-para" for="message">Message:</label>
           <textarea id="message" name="message" rows="4" required onBlur={() => textFieldNull(event)}></textarea>
           </div>
-          <button type="submit">Submit</button>
+          <button className="btn btn-primary btn-lg" type="submit">Submit</button>
         </form>
         {displayError ? (<div>
           All fields must be filled before submitting.
